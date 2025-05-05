@@ -66,7 +66,7 @@
     "googleapis": "latest",
     "twitter-api-v2": "latest",
     "@auth/prisma-adapter": "latest",
-    "bcryptjs": "latest"
+    "bcryptjs": "^2.4.3"
   },
   "devDependencies": {
     "@types/node": "^22",
