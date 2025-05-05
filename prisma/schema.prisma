@@ -3,6 +3,7 @@
 
 generator client {
   provider = "prisma-client-js"
+  output   = "./generated/client" // Specify the path where Prisma Client should be generated
 }
 
 datasource db {
