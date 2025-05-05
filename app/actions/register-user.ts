@@ -1,5 +1,5 @@
 "use server"
-import bcrypt from 'bcryptjs'; // Replace 'bcrypt' with 'bcryptjs'
+import bcrypt  // Replace 'bcrypt' with 'bcryptjs'
 import { db } from "@/lib/db"
 import { hash } from "bcrypt"
 import { z } from "zod"
