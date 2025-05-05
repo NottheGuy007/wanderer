@@ -1,6 +1,5 @@
 "use server"
-import bcrypt  // Replace 'bcrypt' with 'bcryptjs'
-import { db } from "@/lib/db"
+import bcrypt from 'bcrypt'; // Use bcrypt for password hashingimport { db } from "@/lib/db"
 import { hash } from "bcrypt"
 import { z } from "zod"
 import { redirect } from "next/navigation"
