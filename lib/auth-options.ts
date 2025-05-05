@@ -1,5 +1,4 @@
-import bcrypt  // Replace 'bcrypt' with 'bcryptjs'
-import type { NextAuthOptions } from "next-auth"
+import bcrypt from 'bcrypt'; // Use bcrypt for password hashingimport type { NextAuthOptions } from "next-auth"
 import CredentialsProvider from "next-auth/providers/credentials"
 import TwitterProvider from "next-auth/providers/twitter"
 import GitHubProvider from "next-auth/providers/github"
